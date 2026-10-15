@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mcp-udemy"
+version = "0.1.0"
+description = "MCP Udemy learning path"
+authors = ["geomario <marm1984@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mcp = "^2.3.0"
+requests = "^2.34.2"
+fastmcp = "^4.1.0"
+types-requests = "^2.33.0.20261006"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.4.1"
+flake8-annotations = "^3.3.0"
+pydocstyle = "^6.3.0"
+commitizen = "^4.19.2"
+pre-commit = "^4.7.0"
+mypy = "^2.4.0"
+black = "^26.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
